@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./index.css" rel="stylesheet">
+    <title>Sounds</title>
+    <script src="simpleTones.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="frequency-controller">
+        <button id="minus-button">-</button>
+        <div id="frequency">150</div>
+        <button id="plus-button">+</button>
+      </div>
+      <div id="settings">
+        <input type="number" step="0.01" id="step" value="0.1"></div>
+      </div>
+      <div id="volume-slider">
+        <input 
+          type="range" 
+          min="1" 
+          max="100" 
+          value="50" 
+          id="volume"
+        >
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+

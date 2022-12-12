@@ -1,0 +1,26 @@
+{
+  "name": "frequencies",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "description": "Frequencies Producer",
+  "scripts": {
+    "start": "electron --trace-warnings .",
+    "dist": "electron-builder"
+  },
+  "author": "Erez Bens",
+  "license": "MIT",
+  "build": {
+    "productName": "Frequencies Producer",
+    "copyright": "copyright © 2022 ${author}",
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^20.1.0",
+    "electron-builder": "^23.3.3",
+    "electron-reloader": "^1.2.3"
+  }
+}

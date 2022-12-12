@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(245, 221, 245);
+}
+
+#app {}
+
+#frequency-controller {
+  display: flex;
+  justify-content: space-around;
+}
+
+#settings {
+  margin: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+#settings #step {
+  text-align: center;
+}
+
+#volume-slider {
+  display: flex;
+  justify-content: center;
+  margin: 18px;  
+}
+
+#volume-slider input {
+  border: 1px solid green !important;
+  width: 80%;
+}
